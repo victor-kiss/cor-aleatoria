@@ -15,7 +15,7 @@ export default function Home() {
 
   useEffect(()=>{
       hexaColor()
-  },[])
+  })
 
   return (
     <FlexDiv bgColor={result} height="100vh" justify="center" direction="column" align="center">
