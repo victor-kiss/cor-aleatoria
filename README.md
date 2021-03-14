@@ -1,8 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Cor Aleatória
 
-## Getting Started
+O site <b>Cor Aleatória</b> foi um site simples feito em menos de uma hora apenas para me tirar do tédio e não perder o costume de programar.
 
-First, run the development server:
+
+
+## Requisitos... :computer:
+
+-Node js e um editor de código ou IDE para executar o projeto e modificá-lo
+
+
+## Começando ☕
+
+Primeiramente baixe o projeto e execute-o usando:
 
 ```bash
 npm run dev
@@ -10,25 +19,27 @@ npm run dev
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no seu navetador para ver os resultados.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Você pode começar a modificar o projeto por onde quiser, um bom começo é modificar o: `pages/index.js`
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Por dentro do projeto :open_file_folder:
 
-## Learn More
+Vamos conhecer um pouco sobre a organização de pastas do projeto e seus arquivos...
 
-To learn more about Next.js, take a look at the following resources:
+## Pasta "components"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+A pasta responsável pelos componentes do site.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Pasta "pages"
 
-## Deploy on Vercel
+Essa pasta contém a página principal "index.jsx" e o arquivo "_document", responsável pelo Server Side Redenring do styled-components e o arquivo "app"
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Pasta "patterns"
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Dentro dessa pasta fica arquivos reutilizáveis, esses arquivos são elementos HTML com um estilo já pré definido e outras coisas são adaptáveis através do uso de props. Para entender melhor como esses arquivos funcionam basta dar uma olhada em como cada um deles foi programado.
+
+## pasta "styles"
+
+Pasta responsável por conter o css global e o css dos inputs e botões do site.
