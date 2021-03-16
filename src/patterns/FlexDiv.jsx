@@ -13,7 +13,7 @@ const DFlexRow = styled.div`
     align-items:${props => props.align || "baseline"};
     margin:${props => props.margin || "0px"};
     padding:${props => props.padding || "0px"};
-    background-color:${props => props.bgColor || "none"};
+    background-color:${props => props.bgColor   };
     
     @media(max-width:576px){
         flex-direction:column;
