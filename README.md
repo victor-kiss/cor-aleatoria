@@ -42,4 +42,4 @@ Dentro dessa pasta fica arquivos reutilizáveis, esses arquivos são elementos H
 
 ## pasta "styles"
 
-Pasta responsável por conter o css global e o css dos inputs e botões do site.
+Pasta responsável por conter o css global e o css do tema
